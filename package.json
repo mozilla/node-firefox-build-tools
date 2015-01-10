@@ -1,0 +1,25 @@
+{
+  "name": "node-firefox-build-tools",
+  "version": "0.1.0",
+  "description": "Common configs and tasks for hacking on node-firefox",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp",
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mozilla/node-firefox-build-tools"
+  },
+  "author": "Mozilla (https://github.com/mozilla/node-firefox-build-tools/graphs/contributors)",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "gulp": "^3.8.10",
+    "gulp-jscs": "^1.4.0",
+    "gulp-jshint": "^1.9.0",
+    "gulp-json-lint": "0.0.1",
+    "gulp-nodeunit": "0.0.5",
+    "gulp-replace": "^0.5.0",
+    "jshint-stylish": "^1.0.0"
+  }
+}
