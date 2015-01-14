@@ -11,7 +11,13 @@ Right now this is just a set of common gulp tasks and style checks.
 
 Install first: `npm install --save-dev node-firefox-build-tools`.
 
-Then you can use it in your `gulpfile.js`:
+If you are not using gulp in your module yet, now is the right time to add it:
+
+```bash
+npm install --save-dev gulp
+```
+
+Then either create a `gulpfile.js` or edit the existing one to start using the build tools:
 
 ```javascript
 var gulp = require('gulp');
