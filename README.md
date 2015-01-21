@@ -40,6 +40,11 @@ buildTools.loadGulpTasks(gulp);
 
 > Run linters and tests. You may want to override this task.
 
+#### `watch`
+
+> Run linters and tests whenever code is updated. This is handy if you want
+  instant feedback on code you write! (_This is the default task._)
+
 ## License
 
 This program is free software; it is distributed under an
