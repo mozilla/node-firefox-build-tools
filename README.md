@@ -45,6 +45,17 @@ buildTools.loadGulpTasks(gulp);
 > Run linters and tests whenever code is updated. This is handy if you want
   instant feedback on code you write! (_This is the default task._)
 
+## Bootstrap for new node-firefox modules
+
+You can use the included `node-firefox-init-project` binary to copy our
+up-to-date Gulpfile and TravisCI files into your project. This means even less
+work when you create a new `node-firefox` module:
+
+```sh
+cd node-firefox-something-something # go to your project on the command line
+node-firefox-init-project # create your files; you're finished!
+```
+
 ## License
 
 This program is free software; it is distributed under an

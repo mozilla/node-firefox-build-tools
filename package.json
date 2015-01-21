@@ -13,6 +13,9 @@
   },
   "author": "Mozilla (https://github.com/mozilla/node-firefox-build-tools/graphs/contributors)",
   "license": "Apache 2.0",
+  "bin": {
+    "node-firefox-init-project": "bin/init.js"
+  },
   "dependencies": {
     "gulp": "^3.8.10",
     "gulp-jscs": "^1.4.0",
