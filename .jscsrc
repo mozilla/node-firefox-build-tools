@@ -26,7 +26,13 @@
     "try",
     "catch"
   ],
+  "requireSpaceAfterPrefixUnaryOperators": [
+    "+", "-"
+  ],
   "requireSpaceBeforeBlockStatements": true,
+  "requireSpaceBeforePostfixUnaryOperators": [
+    "+", "-"
+  ],
   "requireSpacesInConditionalExpression": true,
   "requireSpacesInFunctionExpression": {
     "beforeOpeningCurlyBrace": true
